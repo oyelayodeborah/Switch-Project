@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankONETransactionSimulator", "BankONETransactionSimulator\BankONETransactionSimulator.csproj", "{95B28D2E-A243-4E0F-9E19-5175DE77B6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankONETrans.WindowsForms", "BankONETrans.WindowsForms\BankONETrans.WindowsForms.csproj", "{341EC576-87C3-4588-AD6B-7BB4220D225B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95B28D2E-A243-4E0F-9E19-5175DE77B6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B28D2E-A243-4E0F-9E19-5175DE77B6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B28D2E-A243-4E0F-9E19-5175DE77B6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B28D2E-A243-4E0F-9E19-5175DE77B6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341EC576-87C3-4588-AD6B-7BB4220D225B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341EC576-87C3-4588-AD6B-7BB4220D225B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341EC576-87C3-4588-AD6B-7BB4220D225B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341EC576-87C3-4588-AD6B-7BB4220D225B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

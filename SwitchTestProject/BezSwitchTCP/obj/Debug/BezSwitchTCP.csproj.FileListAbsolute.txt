@@ -1,0 +1,6 @@
+C:\Users\Appzone PCPC\source\repos\SwitchTestProject\BezSwitchTCP\bin\Debug\BezSwitchTCP.exe.config
+C:\Users\Appzone PCPC\source\repos\SwitchTestProject\BezSwitchTCP\bin\Debug\BezSwitchTCP.exe
+C:\Users\Appzone PCPC\source\repos\SwitchTestProject\BezSwitchTCP\bin\Debug\BezSwitchTCP.pdb
+C:\Users\Appzone PCPC\source\repos\SwitchTestProject\BezSwitchTCP\obj\Debug\BezSwitchTCP.exe
+C:\Users\Appzone PCPC\source\repos\SwitchTestProject\BezSwitchTCP\obj\Debug\BezSwitchTCP.pdb
+C:\Users\Appzone PCPC\source\repos\SwitchTestProject\BezSwitchTCP\obj\Debug\BezSwitchTCP.csprojAssemblyReference.cache

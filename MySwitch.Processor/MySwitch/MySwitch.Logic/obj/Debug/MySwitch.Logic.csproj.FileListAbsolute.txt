@@ -1,0 +1,12 @@
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch.Logic\bin\Debug\MySwitch.Logic.dll
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch.Logic\bin\Debug\MySwitch.Logic.pdb
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch.Logic\obj\Debug\MySwitch.Logic.csprojAssemblyReference.cache
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch.Logic\obj\Debug\MySwitch.Logic.csproj.CoreCompileInputs.cache
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch.Logic\obj\Debug\MySwitch.Logic.dll
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch.Logic\obj\Debug\MySwitch.Logic.pdb
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch\MySwitch.Logic\bin\Debug\MySwitch.Logic.dll
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch\MySwitch.Logic\bin\Debug\MySwitch.Logic.pdb
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch\MySwitch.Logic\obj\Debug\MySwitch.Logic.csprojAssemblyReference.cache
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch\MySwitch.Logic\obj\Debug\MySwitch.Logic.csproj.CoreCompileInputs.cache
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch\MySwitch.Logic\obj\Debug\MySwitch.Logic.dll
+C:\Users\OYELAYO\Documents\Appzone\Projects\Switch Project\MySwitch\MySwitch.Logic\obj\Debug\MySwitch.Logic.pdb

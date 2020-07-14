@@ -1,0 +1,83 @@
+﻿@model IEnumerable<MySwitch.Core.Models.Route>
+
+@{
+    ViewBag.Title = "View All Routes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (TempData["Message"] != null)
+{
+    if (TempData["Message"].ToString() == "Success")
+    {
+        <div class="alert alert-success">
+            <p>@TempData["Message"] <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> </p>
+
+        </div>
+
+    }
+}
+<p>
+    @Html.ActionLink("Add new Route", "Add")
+</p>
+<table class="table table-hover table-responsive table-condensed" id="customers">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SinkNodeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CardPAN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+                @{
+                    var repo = new MySwitch.Data.Repositories.SinkNodeRepository();
+                    var SinkNodeId= repo.Get(Convert.ToInt32(item.SinkNodeId));
+                    <td>
+                        @SinkNodeId.Name
+                    </td>
+                } 
+            <td>
+                @Html.DisplayFor(modelItem => item.CardPAN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+
+            </td>
+        </tr>
+        }
+    </tbody>
+
+</table>
+@section ViewSpecificJavascript
+    {
+    <script>
+            $(document).ready(function () {
+                setTimeout(function () {
+                    $(".alert").fadeOut(100, null);
+                },
+                    3000);
+            });
+            $("#customers").dataTable();
+
+    </script>
+
+}

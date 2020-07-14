@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BezSwitch", "BezSwitch\BezSwitch.csproj", "{2B4051C1-59EF-43AB-964C-5A92DBD48AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BezSwitchTCP", "BezSwitchTCP\BezSwitchTCP.csproj", "{5B8B4B38-769E-4950-88FE-0A5C88F42E10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B4051C1-59EF-43AB-964C-5A92DBD48AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4051C1-59EF-43AB-964C-5A92DBD48AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4051C1-59EF-43AB-964C-5A92DBD48AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4051C1-59EF-43AB-964C-5A92DBD48AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8B4B38-769E-4950-88FE-0A5C88F42E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8B4B38-769E-4950-88FE-0A5C88F42E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8B4B38-769E-4950-88FE-0A5C88F42E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8B4B38-769E-4950-88FE-0A5C88F42E10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65B40499-19C6-4D2F-BDBC-A8FF9F144B4D}
+	EndGlobalSection
+EndGlobal

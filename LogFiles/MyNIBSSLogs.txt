@@ -1,0 +1,42 @@
+Validating message... 19/Apr/2020 07:56:22 PM
+
+Clientpeer is null 19/Apr/2020 07:56:22 PM
+
+Validating message... 19/Apr/2020 08:28:02 PM
+
+
+ Could not connect to the Financial Institution. 19/Apr/2020 08:28:06 PM
+
+Validating message... 19/Apr/2020 08:32:40 PM
+
+
+ Could not connect to the Financial Institution. 19/Apr/2020 08:32:44 PM
+
+Validating message... 19/Apr/2020 08:36:17 PM
+
+
+ Could not connect to the Financial Institution. 19/Apr/2020 08:39:01 PM
+
+Validating message... 20/Apr/2020 12:38:54 AM
+
+
+ Could not connect to the Financial Institution. 20/Apr/2020 12:39:01 AM
+
+Validating message... 20/Apr/2020 12:54:54 AM
+
+Validating message... 20/Apr/2020 12:58:52 AM
+
+Validating message... 20/Apr/2020 01:07:54 AM
+
+Validating message... 20/Apr/2020 02:35:14 AM
+
+Validating message... 20/Apr/2020 09:44:15 AM
+
+Validating message... 23/Apr/2020 08:53:11 AM
+
+Validating message... 23/Apr/2020 09:00:44 AM
+
+Validating message... 23/Apr/2020 09:08:27 AM
+
+Validating message... 23/Apr/2020 09:21:58 AM
+

@@ -1,0 +1,911 @@
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   01/Apr/2020 05:22:26 PM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   02/Apr/2020 11:27:01 AM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   02/Apr/2020 01:01:17 PM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   02/Apr/2020 01:05:24 PM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   02/Apr/2020 01:37:52 PM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   07/Apr/2020 11:40:04 AM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   07/Apr/2020 12:35:02 PM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   07/Apr/2020 12:59:57 PM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   07/Apr/2020 03:52:11 PM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   08/Apr/2020 11:16:58 AM
+
+Error: Transaction log failed Input string was not in a correct format.   Inner Exception:   08/Apr/2020 01:28:40 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 02:37:51 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 02:40:47 PM
+
+Validating message... 08/Apr/2020 02:40:48 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 02:48:52 PM
+
+Validating message... 08/Apr/2020 02:48:52 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 02:51:23 PM
+
+Validating message... 08/Apr/2020 02:51:24 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 02:58:07 PM
+
+Validating message... 08/Apr/2020 02:58:08 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 03:11:26 PM
+
+Validating message... 08/Apr/2020 03:11:26 PM
+
+Invalid transaction type-channel-fee combo 08/Apr/2020 03:11:27 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 03:11:34 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 03:19:56 PM
+
+Validating message... 08/Apr/2020 03:19:57 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 03:23:57 PM
+
+Validating message... 08/Apr/2020 03:23:57 PM
+
+Sink node is null. 08/Apr/2020 03:24:46 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 03:25:28 PM
+
+Error: Transaction log failed! An error occurred while updating the entries. See the inner exception for details.   Inner Exception:  System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.Transactions'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c.<Reader>b__6_0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<>c.<Update>b__21_0(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__153_0()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass148_0.<SaveChangesInternal>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges() 08/Apr/2020 03:35:29 PM
+
+Validating message... 08/Apr/2020 03:35:29 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:16:37 PM 08/Apr/2020 05:16:49 PM
+
+Validating message... 08/Apr/2020 05:16:49 PM
+
+Connection timeout. 08/Apr/2020 05:18:16 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:20:52 PM 08/Apr/2020 05:20:55 PM
+
+Validating message... 08/Apr/2020 05:20:56 PM
+
+Connection timeout. 08/Apr/2020 05:22:12 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:24:04 PM 08/Apr/2020 05:24:08 PM
+
+Validating message... 08/Apr/2020 05:24:08 PM
+
+Connection timeout. 08/Apr/2020 05:25:13 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:25:13 PM 08/Apr/2020 05:25:19 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:28:25 PM 08/Apr/2020 05:30:44 PM
+
+Validating message... 08/Apr/2020 05:30:44 PM
+
+Connection timeout. 08/Apr/2020 05:31:48 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:35:46 PM 08/Apr/2020 05:35:52 PM
+
+Validating message... 08/Apr/2020 05:35:53 PM
+
+Connection timeout. 08/Apr/2020 05:37:00 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:37:01 PM 08/Apr/2020 05:37:24 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:44:38 PM 08/Apr/2020 05:44:43 PM
+
+Validating message... 08/Apr/2020 05:44:43 PM
+
+Connection timeout. 08/Apr/2020 05:45:58 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:49:39 PM 08/Apr/2020 05:49:43 PM
+
+Validating message... 08/Apr/2020 05:49:43 PM
+
+Connection timeout. 08/Apr/2020 05:50:48 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 4:50:48 PM 08/Apr/2020 05:50:53 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 5:19:15 PM 08/Apr/2020 06:19:20 PM
+
+Validating message... 08/Apr/2020 06:19:20 PM
+
+Connection timeout. 08/Apr/2020 06:20:25 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 5:20:26 PM 08/Apr/2020 06:20:31 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 5:35:37 PM 08/Apr/2020 06:35:41 PM
+
+Validating message... 08/Apr/2020 06:35:41 PM
+
+Connection timeout. 08/Apr/2020 06:36:46 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/8/2020 5:36:46 PM 08/Apr/2020 06:38:23 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 4:24:38 AM 09/Apr/2020 05:24:46 AM
+
+Validating message... 09/Apr/2020 05:24:47 AM
+
+Connection timeout. 09/Apr/2020 05:26:07 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 4:26:07 AM 09/Apr/2020 05:27:05 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 4:37:46 AM 09/Apr/2020 05:37:52 AM
+
+Validating message... 09/Apr/2020 05:37:53 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 7:32:32 AM 09/Apr/2020 08:32:44 AM
+
+Validating message... 09/Apr/2020 08:32:46 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 7:33:38 AM 09/Apr/2020 08:33:50 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 7:56:14 AM 09/Apr/2020 08:56:22 AM
+
+Validating message... 09/Apr/2020 08:56:23 AM
+
+Connection timeout. 09/Apr/2020 08:57:37 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 8:19:52 AM 09/Apr/2020 09:19:59 AM
+
+Validating message... 09/Apr/2020 09:19:59 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 8:21:44 AM 09/Apr/2020 09:21:50 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 10:40:18 AM 09/Apr/2020 11:40:24 AM
+
+Validating message... 09/Apr/2020 11:40:25 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 10:41:09 AM 09/Apr/2020 11:41:14 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 10:45:04 AM 09/Apr/2020 11:45:21 AM
+
+Validating message... 09/Apr/2020 11:45:21 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 10:51:53 AM 09/Apr/2020 11:52:00 AM
+
+Validating message... 09/Apr/2020 11:52:00 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 10:52:31 AM 09/Apr/2020 11:52:34 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 11:36:46 AM 09/Apr/2020 12:36:49 PM
+
+Validating message... 09/Apr/2020 12:36:49 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 11:38:44 AM 09/Apr/2020 12:38:48 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 11:51:19 AM 09/Apr/2020 12:51:19 PM
+
+Validating message... 09/Apr/2020 12:51:19 PM
+
+Expired card 09/Apr/2020 12:51:19 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 11:51:20 AM 09/Apr/2020 12:51:20 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 11:53:52 AM 09/Apr/2020 12:53:52 PM
+
+Validating message... 09/Apr/2020 12:53:52 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 11:53:56 AM 09/Apr/2020 12:53:56 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 12:02:46 PM 09/Apr/2020 01:02:50 PM
+
+Validating message... 09/Apr/2020 01:02:50 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 12:04:08 PM 09/Apr/2020 01:04:11 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 12:06:12 PM 09/Apr/2020 01:06:16 PM
+
+Validating message... 09/Apr/2020 01:06:16 PM
+
+Invalid Amount 09/Apr/2020 01:06:20 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 0 Date: 4/9/2020 12:06:24 PM 09/Apr/2020 01:06:27 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 5000 Date: 4/9/2020 12:08:58 PM 09/Apr/2020 01:09:01 PM
+
+Validating message... 09/Apr/2020 01:09:01 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 5000 Date: 4/9/2020 12:11:40 PM 09/Apr/2020 01:11:44 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 5000 Date: 4/9/2020 12:17:33 PM 09/Apr/2020 01:17:37 PM
+
+Validating message... 09/Apr/2020 01:17:37 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 5000 Date: 4/9/2020 12:19:43 PM 09/Apr/2020 01:19:46 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 5000 Date: 4/9/2020 12:40:57 PM 09/Apr/2020 01:40:57 PM
+
+Validating message... 09/Apr/2020 01:40:57 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 5000 Date: 4/9/2020 12:41:00 PM 09/Apr/2020 01:41:00 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 5000 Date: 4/9/2020 12:45:28 PM 09/Apr/2020 01:45:28 PM
+
+Validating message... 09/Apr/2020 01:45:28 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 5000 Date: 4/9/2020 12:45:31 PM 09/Apr/2020 01:45:31 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 2000 Date: 4/9/2020 12:49:31 PM 09/Apr/2020 01:49:31 PM
+
+Validating message... 09/Apr/2020 01:49:31 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 2000 Date: 4/9/2020 12:49:34 PM 09/Apr/2020 01:49:34 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 2000 Date: 4/9/2020 1:36:04 PM 09/Apr/2020 02:36:04 PM
+
+Validating message... 09/Apr/2020 02:36:04 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 2000 Date: 4/9/2020 1:36:12 PM 09/Apr/2020 02:36:12 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 1000 Date: 4/9/2020 1:49:13 PM 09/Apr/2020 02:49:13 PM
+
+Validating message... 09/Apr/2020 02:49:13 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 1000 Date: 4/9/2020 1:49:17 PM 09/Apr/2020 02:49:17 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 1000 Date: 4/9/2020 3:18:16 PM 09/Apr/2020 04:18:16 PM
+
+Validating message... 09/Apr/2020 04:18:16 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 1000 Date: 4/9/2020 3:18:22 PM 09/Apr/2020 04:18:22 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 1000 Date: 4/9/2020 3:22:17 PM 09/Apr/2020 04:22:17 PM
+
+Validating message... 09/Apr/2020 04:22:17 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 1000 Date: 4/9/2020 3:22:26 PM 09/Apr/2020 04:22:26 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000000 Amount: 1000 Date: 4/9/2020 3:37:05 PM 09/Apr/2020 04:37:10 PM
+
+Validating message... 09/Apr/2020 04:37:10 PM
+
+
+Reversal message! 09/Apr/2020 04:37:10 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000001 Amount: 1000 Date: 4/9/2020 9:29:25 PM 09/Apr/2020 10:29:28 PM
+
+Validating message... 09/Apr/2020 10:29:29 PM
+
+
+Reversal message! 09/Apr/2020 10:29:29 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000056R Amount: 1000 Date: 4/10/2020 7:15:58 PM 10/Apr/2020 08:16:02 PM
+
+Validating message... 10/Apr/2020 08:16:02 PM
+
+
+Reversal message! 10/Apr/2020 08:16:02 PM
+
+Original Data Element: 20012345610100103230001111222200000000056 10/Apr/2020 08:16:05 PM
+
+
+ Continue with reversal 10/Apr/2020 08:16:05 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000056R Amount: 1000.00 Date: 4/10/2020 7:17:47 PM 10/Apr/2020 08:17:51 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000065R Amount: 1000 Date: 4/10/2020 7:40:43 PM 10/Apr/2020 08:40:48 PM
+
+Validating message... 10/Apr/2020 08:40:48 PM
+
+
+Reversal message! 10/Apr/2020 08:40:48 PM
+
+Original Data Element: 20012345610100103230001111222200000000065 10/Apr/2020 08:40:50 PM
+
+
+ Continue with reversal 10/Apr/2020 08:40:50 PM
+
+Error: Transaction log failed! Object reference not set to an instance of an object.   Inner Exception:   10/Apr/2020 08:42:08 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000066 Amount: 1000 Date: 4/11/2020 7:03:24 AM 11/Apr/2020 08:03:29 AM
+
+Validating message... 11/Apr/2020 08:03:29 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000066 Amount: 1000 Date: 4/11/2020 7:06:20 AM 11/Apr/2020 08:06:23 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000076 Amount: 1000 Date: 4/11/2020 7:59:24 AM 11/Apr/2020 08:59:29 AM
+
+Validating message... 11/Apr/2020 08:59:29 AM
+
+Invalid transaction type-channel-fee combo 11/Apr/2020 08:59:30 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000076 Amount: 1000 Date: 4/11/2020 7:59:38 AM 11/Apr/2020 08:59:41 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000077 Amount: 1000 Date: 4/11/2020 8:33:21 AM 11/Apr/2020 09:33:30 AM
+
+Validating message... 11/Apr/2020 09:33:30 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000077 Amount: 1000 Date: 4/11/2020 7:56:50 PM 11/Apr/2020 08:56:55 PM
+
+Validating message... 11/Apr/2020 08:56:56 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000077 Amount: 1000 Date: 4/11/2020 8:24:00 PM 11/Apr/2020 09:24:08 PM
+
+Validating message... 11/Apr/2020 09:24:08 PM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000077 Amount: 1000 Date: 4/11/2020 8:25:24 PM 11/Apr/2020 09:25:31 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/11/2020 8:40:09 PM 11/Apr/2020 09:40:14 PM
+
+Validating message... 11/Apr/2020 09:40:14 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/11/2020 8:48:29 PM 11/Apr/2020 09:48:34 PM
+
+Validating message... 11/Apr/2020 09:48:34 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 8:47:07 AM 14/Apr/2020 09:47:10 AM
+
+Validating message... 14/Apr/2020 09:47:11 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 8:55:46 AM 14/Apr/2020 09:55:50 AM
+
+Validating message... 14/Apr/2020 09:55:50 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 9:01:47 AM 14/Apr/2020 10:01:50 AM
+
+Validating message... 14/Apr/2020 10:01:50 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 9:12:01 AM 14/Apr/2020 10:12:04 AM
+
+Validating message... 14/Apr/2020 10:12:04 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 9:15:02 AM 14/Apr/2020 10:15:05 AM
+
+Validating message... 14/Apr/2020 10:15:05 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 9:25:41 AM 14/Apr/2020 10:25:43 AM
+
+Validating message... 14/Apr/2020 10:25:43 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 9:26:46 AM 14/Apr/2020 10:26:49 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 9:38:06 AM 14/Apr/2020 10:38:08 AM
+
+Validating message... 14/Apr/2020 10:38:09 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 9:39:34 AM 14/Apr/2020 10:39:39 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 9:44:22 AM 14/Apr/2020 10:44:25 AM
+
+Validating message... 14/Apr/2020 10:44:25 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/14/2020 9:45:41 AM 14/Apr/2020 10:45:43 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/16/2020 8:09:02 AM 16/Apr/2020 09:09:06 AM
+
+Validating message... 16/Apr/2020 09:09:06 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/16/2020 8:14:58 AM 16/Apr/2020 09:15:01 AM
+
+Validating message... 16/Apr/2020 09:15:45 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 6:03:43 PM 19/Apr/2020 07:03:43 PM
+
+Validating message... 19/Apr/2020 07:03:44 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 6:11:17 PM 19/Apr/2020 07:11:17 PM
+
+Validating message... 19/Apr/2020 07:11:18 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 6:18:23 PM 19/Apr/2020 07:18:23 PM
+
+Validating message... 19/Apr/2020 07:18:24 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 6:21:57 PM 19/Apr/2020 07:21:58 PM
+
+Validating message... 19/Apr/2020 07:21:58 PM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 6:22:29 PM 19/Apr/2020 07:22:29 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 6:26:22 PM 19/Apr/2020 07:26:23 PM
+
+Validating message... 19/Apr/2020 07:26:24 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 6:31:59 PM 19/Apr/2020 07:32:00 PM
+
+Validating message... 19/Apr/2020 07:32:00 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 6:52:19 PM 19/Apr/2020 07:52:19 PM
+
+Validating message... 19/Apr/2020 07:52:20 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 6:54:52 PM 19/Apr/2020 07:54:52 PM
+
+Validating message... 19/Apr/2020 07:54:53 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 7:03:56 PM 19/Apr/2020 08:03:56 PM
+
+Validating message... 19/Apr/2020 08:03:57 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 7:27:55 PM 19/Apr/2020 08:27:55 PM
+
+Validating message... 19/Apr/2020 08:27:55 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 7:32:34 PM 19/Apr/2020 08:32:34 PM
+
+Validating message... 19/Apr/2020 08:32:34 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 7:35:51 PM 19/Apr/2020 08:35:51 PM
+
+Validating message... 19/Apr/2020 08:35:52 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 11:38:44 PM 20/Apr/2020 12:38:45 AM
+
+Validating message... 20/Apr/2020 12:38:45 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 11:54:38 PM 20/Apr/2020 12:54:39 AM
+
+Validating message... 20/Apr/2020 12:54:40 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 11:58:39 PM 20/Apr/2020 12:58:40 AM
+
+Validating message... 20/Apr/2020 12:58:40 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/19/2020 11:59:15 PM 20/Apr/2020 12:59:15 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/20/2020 12:07:42 AM 20/Apr/2020 01:07:42 AM
+
+Validating message... 20/Apr/2020 01:07:43 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/20/2020 12:08:08 AM 20/Apr/2020 01:08:08 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/20/2020 1:34:58 AM 20/Apr/2020 02:34:59 AM
+
+Validating message... 20/Apr/2020 02:34:59 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/20/2020 1:36:03 AM 20/Apr/2020 02:36:03 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/20/2020 8:43:54 AM 20/Apr/2020 09:43:55 AM
+
+Validating message... 20/Apr/2020 09:43:55 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/20/2020 8:44:47 AM 20/Apr/2020 09:44:47 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 0 Date: 4/20/2020 11:01:36 AM 20/Apr/2020 12:01:37 PM
+
+Validating message... 20/Apr/2020 12:01:38 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 0 Date: 4/20/2020 11:01:55 AM 20/Apr/2020 12:01:55 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 0 Date: 4/20/2020 11:04:47 AM 20/Apr/2020 12:04:47 PM
+
+Validating message... 20/Apr/2020 12:04:48 PM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 0 Date: 4/20/2020 11:05:04 AM 20/Apr/2020 12:05:04 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 0 Date: 4/21/2020 7:53:01 PM 21/Apr/2020 08:53:01 PM
+
+Validating message... 21/Apr/2020 08:53:02 PM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 0 Date: 4/21/2020 7:53:04 PM 21/Apr/2020 08:53:04 PM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 7:25:42 AM 23/Apr/2020 08:25:43 AM
+
+Validating message... 23/Apr/2020 08:25:45 AM
+
+Clientpeer is null 23/Apr/2020 08:25:47 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 7:25:47 AM 23/Apr/2020 08:25:47 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 7:27:56 AM 23/Apr/2020 08:27:56 AM
+
+Validating message... 23/Apr/2020 08:27:56 AM
+
+Clientpeer is null 23/Apr/2020 08:27:57 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 7:27:57 AM 23/Apr/2020 08:27:57 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 7:39:29 AM 23/Apr/2020 08:39:29 AM
+
+Validating message... 23/Apr/2020 08:39:30 AM
+
+Clientpeer is null 23/Apr/2020 08:39:31 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 7:39:31 AM 23/Apr/2020 08:39:31 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 7:52:44 AM 23/Apr/2020 08:52:47 AM
+
+Validating message... 23/Apr/2020 08:52:48 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 7:55:54 AM 23/Apr/2020 08:56:00 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 0 Date: 4/23/2020 8:00:25 AM 23/Apr/2020 09:00:28 AM
+
+Validating message... 23/Apr/2020 09:00:29 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 0 Date: 4/23/2020 8:01:08 AM 23/Apr/2020 09:01:11 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 8:04:22 AM 23/Apr/2020 09:04:27 AM
+
+Validating message... 23/Apr/2020 09:04:27 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 8:04:59 AM 23/Apr/2020 09:05:03 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 8:08:01 AM 23/Apr/2020 09:08:04 AM
+
+Validating message... 23/Apr/2020 09:08:04 AM
+
+Transaction logged! -> ODE= 21012345610100103230001111222200000000078 Amount: 1000 Date: 4/23/2020 8:09:12 AM 23/Apr/2020 09:09:17 AM
+
+Transaction logged! -> ODE= 20012345610100103230001111222200000000026R Amount: 1000 Date: 4/23/2020 8:21:37 AM 23/Apr/2020 09:21:39 AM
+
+Validating message... 23/Apr/2020 09:21:40 AM
+
+
+Reversal message! 23/Apr/2020 09:21:40 AM
+
+Original Data Element: 20012345610100103230001111222200000000026 23/Apr/2020 09:21:41 AM
+
+
+ Continue with reversal 23/Apr/2020 09:21:41 AM
+
+Error: Transaction log failed! Object reference not set to an instance of an object.   Inner Exception:   23/Apr/2020 09:22:20 AM
+

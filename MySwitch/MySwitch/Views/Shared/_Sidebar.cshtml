@@ -1,0 +1,171 @@
+﻿@using WebHelpers.Mvc5
+<aside class="main-sidebar" style="width:260px">
+    <section class="sidebar">
+        @* BEGIN Search *@
+        <br />
+        <a href="@Url.Action("Index", "Home")" class="logo">
+            @* Mini logo for sidebar 50x50 pixels *@
+            <span class="logo-mini"></span>
+
+            @* END Search *@
+            @* BEGIN Menu *@
+            <ul class="sidebar-menu" data-widget="tree">
+                <li class="@Url.IsLinkActive("Index", "Home")">
+                    <a href="@Url.Action("Index", "Home")"><i class="fa fa-link"></i> <span>Home</span></a>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-link"></i> <span>TransactionType @*Management*@</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="@Url.IsLinkActive("Add", "TransactionType")">
+                            <a href="@Url.Action("Add", "TransactionType")"><i class="fa fa-link"></i> <span>Add new TransactionType</span></a>
+                        </li>
+                        <li class="@Url.IsLinkActive("Index", "TransactionType")">
+                            <a href="@Url.Action("Index", "TransactionType")"><i class="fa fa-link"></i> <span>View TransactionType</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-link"></i> <span>Channel @*Management*@</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="@Url.IsLinkActive("Add", "Channel")">
+                            <a href="@Url.Action("Add", "Channel")"><i class="fa fa-link"></i> <span>Add new Channel</span></a>
+                        </li>
+                        <li class="@Url.IsLinkActive("Index", "Channel")">
+                            <a href="@Url.Action("Index", "Channel")"><i class="fa fa-link"></i> <span>View Channels</span></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-link"></i> <span>Sink Node @*Management*@</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="@Url.IsLinkActive("Add", "SinkNode")">
+                            <a href="@Url.Action("Add", "SinkNode")"><i class="fa fa-link"></i> <span>Add new Sink Node</span></a>
+                        </li>
+                        <li class="@Url.IsLinkActive("Index", "SinkNode")">
+                            <a href="@Url.Action("Index", "SinkNode")"><i class="fa fa-link"></i> <span>View Sink Nodes</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-link"></i> <span>Financial Institution @*Management*@</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="@Url.IsLinkActive("Add", "FinancialInstitution")">
+                            <a href="@Url.Action("Add", "FinancialInstitution")"><i class="fa fa-link"></i> <span>Add new Financial Institution</span></a>
+                        </li>
+                        <li class="@Url.IsLinkActive("Index", "FinancialInstitution")">
+                            <a href="@Url.Action("Index", "FinancialInstitution")"><i class="fa fa-link"></i> <span>View Financial Institutions</span></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-link"></i> <span>Route @*Management*@</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="@Url.IsLinkActive("Add", "Route")">
+                            <a href="@Url.Action("Add", "Route")"><i class="fa fa-link"></i> <span>Add new Route</span></a>
+                        </li>
+                        <li class="@Url.IsLinkActive("Index", "Route")">
+                            <a href="@Url.Action("Index", "Route")"><i class="fa fa-link"></i> <span>View Route</span></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-link"></i> <span>Fee @*Management*@</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="@Url.IsLinkActive("Add", "Fee")">
+                            <a href="@Url.Action("Add", "Fee")"><i class="fa fa-link"></i> <span>Add new Fee</span></a>
+                        </li>
+                        <li class="@Url.IsLinkActive("Index", "Fee")">
+                            <a href="@Url.Action("Index", "Fee")"><i class="fa fa-link"></i> <span>View Fee</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-link"></i> <span>Combo @*Management*@</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="@Url.IsLinkActive("Add", "Combo")">
+                            <a href="@Url.Action("Add", "Combo")"><i class="fa fa-link"></i> <span>Add new Combo</span></a>
+                        </li>
+                        <li class="@Url.IsLinkActive("Index", "Combo")">
+                            <a href="@Url.Action("Index", "Combo")"><i class="fa fa-link"></i> <span>View Combo</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-link"></i> <span>Scheme @*Management*@</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="@Url.IsLinkActive("Add", "Scheme")">
+                            <a href="@Url.Action("Add", "Scheme")"><i class="fa fa-link"></i> <span>Add new Scheme</span></a>
+                        </li>
+                        <li class="@Url.IsLinkActive("Index", "Scheme")">
+                            <a href="@Url.Action("Index", "Scheme")"><i class="fa fa-link"></i> <span>View Scheme</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-link"></i> <span>Source Node @*Management*@</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="@Url.IsLinkActive("Add", "SourceNode")">
+                            <a href="@Url.Action("Add", "SourceNode")"><i class="fa fa-link"></i> <span>Add new Source Node</span></a>
+                        </li>
+                        <li class="@Url.IsLinkActive("Index", "SourceNode")">
+                            <a href="@Url.Action("Index", "SourceNode")"><i class="fa fa-link"></i> <span>View Source Nodes</span></a>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="@Url.IsLinkActive("Index", "Transaction")">
+                    <a href="@Url.Action("Index", "Transaction")"><i class="fa fa-link"></i> <span>View Transaction Logs</span></a>
+                </li>
+            </ul>
+            @* END Menu *@
+    </section>
+</aside>
